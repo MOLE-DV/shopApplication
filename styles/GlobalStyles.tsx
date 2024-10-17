@@ -5,6 +5,5 @@ export default StyleSheet.create({
     flex: 1,
     alignItems: "center",
     backgroundColor: "white",
-    paddingTop: Platform.OS === "android" ? 25 : 0,
   },
 });
