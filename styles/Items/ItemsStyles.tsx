@@ -5,13 +5,21 @@ export default StyleSheet.create({
     width: Dimensions.get("window").width,
     height: Dimensions.get("window").width,
     flexDirection: "column-reverse",
+    position: "absolute",
+    top: 0,
+  },
+  scrollView: {
+    paddingTop: Dimensions.get("window").width,
+  },
+  scrollViewContent: {
+    paddingBottom: 500,
   },
   title: {
     fontSize: 24,
     fontWeight: "bold",
     color: "#ffffff",
     margin: 10,
-    zIndex: 3,
+    zIndex: 0,
     textShadowColor: "rgb(0, 0, 0)",
     textShadowOffset: { width: 0, height: 1 },
     textShadowRadius: 5,
@@ -54,14 +62,25 @@ export default StyleSheet.create({
     left: 0,
     right: 0,
     height: 60,
-    backgroundColor: "rgba(40, 48, 68, 0)",
     paddingTop: 10,
+    display: "flex",
+    flexDirection: "row",
+    justifyContent: "space-between",
   },
-  topNavBarBack: {
+  topNavBarIcon: {
     tintColor: "white",
     height: 40,
     width: 40,
-    marginLeft: 20,
+    marginHorizontal: 20,
+  },
+  topNavBarBackground: {
+    backgroundColor: "rgba(40, 48, 68, 1)",
+    position: "absolute",
+    width: "100%",
+    height: 60,
+  },
+  descriptionBackground: {
+    backgroundColor: "white",
   },
   description: {
     padding: 20,

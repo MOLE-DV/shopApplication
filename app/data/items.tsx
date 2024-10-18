@@ -84,12 +84,16 @@ export default [
     title: "Smartphone",
     price: "699.99$",
     icon: require("../../assets/images/items/phone.jpeg"),
-    description: `Tempor veniam officia laboris laborum. Exercitation commodo amet adipisicing consequat commodo sint. Reprehenderit excepteur dolor incididunt ea ad cupidatat velit anim nisi ea.
+    description: `Voluptate in laboris laborum ut quis quis sunt magna aliqua dolore velit qui aliqua ex. Anim nulla ullamco eiusmod pariatur. Anim sint dolor voluptate duis voluptate enim qui commodo nulla pariatur laboris non.
 
-Ad commodo minim proident sit adipisicing ex duis occaecat laborum velit officia pariatur anim. Quis officia cupidatat incididunt ea nulla commodo. Id in anim sint et in officia velit ad do dolor irure officia laboris qui. Sit consectetur ipsum dolore aliqua exercitation. Sint sit consequat tempor voluptate Lorem non minim qui Lorem irure.
+Voluptate pariatur sint laboris ea mollit cupidatat ullamco. Pariatur velit cupidatat sint ullamco reprehenderit cillum anim pariatur id velit excepteur officia. Consectetur dolore aliqua occaecat reprehenderit elit aliqua ullamco culpa do tempor ad reprehenderit nisi. Irure aute laborum irure non magna. Quis ea ut id eiusmod elit fugiat culpa deserunt do consequat id id elit aliquip. Cupidatat enim qui eiusmod incididunt aliqua.
 
-Tempor fugiat deserunt nulla enim pariatur velit voluptate et reprehenderit ut cupidatat. Enim aliqua laborum ad qui et sit mollit ut eiusmod ex laborum. Quis ullamco nisi non minim ut. Labore et laborum sint voluptate proident elit irure eu est sit anim.
+Voluptate dolor eu ullamco deserunt amet minim consequat elit et culpa laborum ex qui. Esse nisi fugiat mollit cillum id dolore exercitation et. Lorem est ut tempor esse occaecat. Aliqua laboris est anim consectetur et dolor sit. Amet aute commodo exercitation officia ex sunt nulla minim exercitation veniam pariatur qui cillum cupidatat.
 
-Eu ex consequat eiusmod magna tempor non laboris nostrud labore ea qui excepteur fugiat. Cupidatat amet mollit quis veniam labore id. Sint aliqua ullamco ad ullamco ex nulla et deserunt veniam ut tempor enim. In nostrud eiusmod id enim dolore id tempor reprehenderit culpa.`,
+Reprehenderit tempor ea id id incididunt irure. Incididunt ex reprehenderit nostrud ex. Voluptate amet enim officia cupidatat id esse anim non culpa culpa. Ad nostrud minim mollit labore nisi magna nulla nostrud voluptate ipsum officia non qui. Id nisi nisi adipisicing eu duis commodo ea occaecat ad esse consequat sit eiusmod.
+
+Velit consequat deserunt est ea elit nostrud irure aliqua anim in mollit mollit labore ex. Ad quis est consequat officia veniam nulla ut anim quis duis deserunt. Nulla occaecat esse est sint. Qui Lorem aliquip ipsum Lorem commodo sunt. Cupidatat veniam dolore magna minim quis nulla esse. Incididunt nulla laborum irure nostrud ut do do eu enim eu exercitation. Anim anim proident tempor dolor.
+
+In ullamco anim officia velit labore tempor quis aliquip ex non reprehenderit ipsum occaecat ea. Ad commodo officia sit mollit et exercitation incididunt duis officia ea duis sint. Non culpa aliquip sit minim elit anim elit laboris sunt excepteur laborum. Occaecat aliqua ut ex commodo eu fugiat excepteur sunt minim Lorem. Nisi veniam proident cupidatat elit ipsum duis ea aliquip incididunt aute cillum veniam reprehenderit.`,
   },
 ];
