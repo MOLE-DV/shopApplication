@@ -11,11 +11,13 @@ import { router } from "expo-router";
 
 import GlobalStyles from "../styles/GlobalStyles";
 import MainStyles from "../styles/Main/MainStyles";
-import data from "./data/items";
 
 import Header from "./Header";
+import Fetch from "../components/FetchData";
 
 export default function App() {
+  const data = Fetch();
+
   return (
     <SafeAreaView style={GlobalStyles.androidSafeArea}>
       <View style={MainStyles.searchBarContainer}>

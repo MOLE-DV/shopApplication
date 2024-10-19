@@ -77,11 +77,10 @@ export default function Item() {
     try {
       switch (isFavorite) {
         case true:
-          const favItemsTemp = favoritedItems.filter(
-            (item) => item.id !== itemId
+          favoritedItems.splice(
+            favoritedItems.indexOf({ id: itemId, title: title }),
+            1
           );
-          console.log(favItemsTemp);
-          setFavoritedItems(favItemsTemp);
           break;
         case false:
           favoritedItems.push({ id: itemId, title: title });
