@@ -16,7 +16,8 @@ import Header from "./Header";
 import Fetch from "../components/FetchData";
 
 export default function App() {
-  const data = Fetch();
+  //FIXME: Napraw pobieranie danych z firebase
+  // const data = Fetch();
 
   return (
     <SafeAreaView style={GlobalStyles.androidSafeArea}>
@@ -54,7 +55,10 @@ export default function App() {
               })
             }
           >
-            <Image style={MainStyles.listItemIcon} source={item.icon} />
+            <Image
+              style={MainStyles.listItemIcon}
+              source={{ uri: item.icon }}
+            />
             <Text style={MainStyles.listItemText}>
               {item.title}{" "}
               <Text style={MainStyles.listItemTextPrice}>{item.price}</Text>

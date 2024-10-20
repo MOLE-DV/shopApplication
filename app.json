@@ -28,6 +28,9 @@
       "sourceExts": ["js", "jsx", "svgx"],
       "transformer": "node_modules/react-native-svg-transformer/index.js"
     },
-    "plugins": []
+    "plugins": [],
+    "extra": {
+      "firebaseStorageUrl": "gs://shopapplication-57342.appspot.com/"
+    }
   }
 }

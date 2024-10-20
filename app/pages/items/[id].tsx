@@ -26,6 +26,8 @@ export default function Item() {
   const [isFavorite, setToFavorite] = useState(false);
   const [favoritedItems, setFavoritedItems] = useState(favoritedItemsData);
 
+  let changedIcon = icon.toString().replace(`items/`, `items%2F`);
+
   const heartIcons = {
     heart: require("../../../assets/icons/png/heart.png"),
     heart_open: require("../../../assets/icons/png/heart_open.png"),
@@ -109,7 +111,7 @@ export default function Item() {
           onPress={favoriteButtonHandler}
         />
       </View>
-      <ImageBackground style={ItemsStyles.icon} source={icon}>
+      <ImageBackground style={ItemsStyles.icon} source={{ uri: changedIcon }}>
         <Text style={ItemsStyles.title}>{title}</Text>
       </ImageBackground>
       <ScrollView
